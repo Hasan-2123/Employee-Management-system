@@ -1,0 +1,148 @@
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #edf1f7, #dfe9f3);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.main-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Page title */
+.page-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+
+/* Add button */
+.add-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 25px;
+  background-color: #468ef1;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #1f6fe0;
+}
+
+/* Card box */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* Form inputs */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c9c9c9;
+  font-size: 14px;
+}
+
+.form-textarea {
+  height: 80px;
+}
+
+/* Submit & cancel buttons */
+.btn-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Employee list table */
+.table-container {
+  margin-top: 30px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.employee-table th {
+  padding: 12px;
+  background-color: #468ef1;
+  color: white;
+  font-size: 16px;
+}
+
+.employee-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffaf00;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #e63946;
+  color: #fff;
+}
